@@ -14,8 +14,8 @@ let box= 32;
 let score = 0;
 
 let food = {
-   x: Math.floor((Math.random() * 17 + 1))  * box,
-   y: Math.floor((Math.random() * 15 + 3))  * box,
+   x: Math.floor((Math.random() * 15 + 1))  * box,
+   y: Math.floor((Math.random() * 13 + 3))  * box,
 };
 
 let snake = [];
